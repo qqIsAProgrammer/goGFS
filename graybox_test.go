@@ -1,11 +1,11 @@
 package main
 
 import (
-	"gfs"
-	"gfs/chunkserver"
-	"gfs/client"
-	"gfs/master"
-	"gfs/util"
+	"goGFS/src/gfs"
+	"goGFS/src/gfs/chunkserver"
+	"goGFS/src/gfs/client"
+	"goGFS/src/gfs/master"
+	"goGFS/src/gfs/util"
 	"reflect"
 
 	"fmt"

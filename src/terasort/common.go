@@ -10,8 +10,8 @@ const (
 	MapPhase    JobPhase = 1
 	ReducePhase          = 2
 
-	TmpFilePrefix        = "mr-"
-    FilePerm             = 0755
+	TmpFilePrefix = "mr-"
+	FilePerm      = 0755
 )
 
 // system config
@@ -19,7 +19,7 @@ const (
 	TeraGenNumber         = 8 << 20
 	TerasortMapTaskNum    = 10
 	TerasortReduceTaskNum = 10
-    StringLength          = 8 - 1
+	StringLength          = 8 - 1
 )
 
 // get the names of input file of task

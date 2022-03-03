@@ -6,9 +6,9 @@ import (
 	//"math/rand"
 	//"time"
 
-	"gfs"
-	"gfs/chunkserver"
-	"gfs/master"
+	"goGFS/src/gfs"
+	"goGFS/src/gfs/chunkserver"
+	"goGFS/src/gfs/master"
 	"os"
 )
 

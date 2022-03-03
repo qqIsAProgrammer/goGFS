@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"gfs"
+	"goGFS/src/gfs"
 )
 
 type downloadItem struct {

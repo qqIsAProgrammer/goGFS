@@ -1,8 +1,8 @@
 package client
 
 import (
-	"gfs"
-	"gfs/util"
+	"goGFS/src/gfs"
+	"goGFS/src/gfs/util"
 	"sync"
 	"time"
 	//log "github.com/Sirupsen/logrus"
@@ -55,7 +55,7 @@ func (buf *leaseBuffer) Get(handle gfs.ChunkHandle) (*gfs.Lease, error) {
 			return nil, err
 		}
 
-		lease = &gfs.Lease{l.Primary, l.Expire, l.Secondaries}
+		lease = &gfs.Lease{Primary: l.Primary, Expire: l.Expire, Secondaries: l.Secondaries}
 		buf.buffer[handle] = lease
 		return lease, nil
 	}

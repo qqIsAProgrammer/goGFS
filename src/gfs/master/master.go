@@ -10,8 +10,8 @@ import (
 	"path"
 	"time"
 
-	"gfs"
-	"gfs/util"
+	"goGFS/src/gfs"
+	"goGFS/src/gfs/util"
 )
 
 // Master Server struct
